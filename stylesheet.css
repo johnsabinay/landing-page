@@ -39,27 +39,47 @@ a {
 .sub-header-section{
     display: flex;
     background-color: rgb(6, 6, 69);
-    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     gap: 30px;
     padding: 100px;
-    
-
-
-
 }
+
+.subheader-container {
+    display: flex;
+    border: 2px red solid;
+    width: 800px;
+    height: 300px;
+    
+}
+
 
 .sub-header-left-box {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid rgb(177, 177, 177);
+    max-width: 380px;
+    box-sizing: border-box;
+}
+
+.hero-main-txt {
+ font-size: 34px;
+ font-weight: 900;
+ font-family: 'Brush Script MT', cursive;
+ padding: 10px;
+ text-align: start;
+}
+
+.hero-main-txt > p {
+    color: rgb(111, 58, 58);
+    
 }
 
 .sub-header-right-box {
     display: flex;
-    border: 2px solid black;
-    
+    border: 2px solid rgb(137, 151, 12);
+    flex: 1;
+    max-width: 465px;
     
 
 }
@@ -69,5 +89,6 @@ a {
     width: 300px;
     display: flex;
     justify-content: center;
+    flex: 1;
     
 }
