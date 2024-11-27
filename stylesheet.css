@@ -60,6 +60,7 @@ a:hover{
     display: flex;
     width: 800px;
     height: 300px;
+   
 }
 
 
@@ -72,6 +73,7 @@ a:hover{
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+    gap:8px
 }
 
 .hero-main-txt {
