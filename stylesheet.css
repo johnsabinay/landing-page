@@ -4,6 +4,7 @@ body {
     margin-right: 20px;
     background-color: black;
     margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -36,6 +37,10 @@ a {
     text-decoration: none;
     color: rgb(187, 185, 185);
     
+}
+
+a:hover{
+    color: white        ;
 }
 
 /* sub-header-section */
@@ -154,7 +159,7 @@ a {
 }
 .img {
     border-radius: 10px;
-    border: 8px solid rgb(31, 31, 31);
+    border: 5px solid rgb(31, 31, 31);
     height: 360px;
 }
 .para {
@@ -210,6 +215,8 @@ a {
     height: 300px;
     justify-content: center;  
     align-items: center;  
+    padding-top: 60px;
+    padding-bottom: 60px;
     
    
 }
@@ -224,6 +231,7 @@ a {
     border: 3px solid rgb(5, 5, 44);
      box-sizing: border-box;
      width: 800px;
+     height: 180px;
     
 }
 
@@ -264,3 +272,14 @@ a {
     cursor: pointer;
 }
 
+.footer {
+    background-color: rgb(5, 5, 44); ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0px;
+}
