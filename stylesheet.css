@@ -206,4 +206,61 @@ a {
 
 .more-section {
     background: white;
+    display: flex;
+    height: 300px;
+    justify-content: center;  
+    align-items: center;  
+    
+   
 }
+
+.form {
+    display: flex; 
+     background-color: rgb(31, 31, 31);
+     padding:50px ;
+     gap: 8px;
+     margin: 100px;
+     border-radius: 15px;
+    border: 3px solid rgb(5, 5, 44);
+     box-sizing: border-box;
+     width: 800px;
+    
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 3 1 auto;
+    width:300px; 
+   
+}
+
+.right-side {
+    display: flex;
+    flex:1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: start;
+}
+
+.form-sometext {
+    align-self: start;
+}
+
+.more-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(219, 219, 219);
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
