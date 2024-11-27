@@ -73,7 +73,7 @@ a {
 .hero-main-txt {
  font-size: 34px;
  font-weight: 900;
- font-family: 'Brush Script MT', cursive;
+ font-family: sans-serif;
  
  text-align: start;
  color: beige;
@@ -123,7 +123,6 @@ a {
     align-items: center;
     padding-top: 20px;
 }
-
 .content-header {
     text-align: center;
     color: rgb(33, 33, 33);
@@ -131,8 +130,7 @@ a {
     font-weight: 1000;
     padding: 25px;
     font-family: sans-serif;
-    padding-bottom: 50PX;
-    
+    padding-bottom: 50PX;  
 }
 
 .content-container {
@@ -143,11 +141,8 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     flex: 1 1 200px;
-    padding-bottom: 280px;
-    
-    
+    padding-bottom: 230px;
 }
-
   .content {
     display: flex;
     justify-content: center;
@@ -157,17 +152,12 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
-    
 }
-
-
-
 .img {
     border-radius: 10px;
     border: 8px solid rgb(31, 31, 31);
     height: 360px;
 }
-
 .para {
     color: rgb(59, 59, 59);
 }
