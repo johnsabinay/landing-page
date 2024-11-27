@@ -112,29 +112,14 @@ a {
     font-weight: bolder;
 }
 
+/* CONTENT SECTION */
+
 .content-section {
     display: flex;
     background-color: white;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
-}
-
-.content-container {
-    display: flex;
-    gap: 30px;
-    border: 2px yellow solid;
-    
-    
-}
-
-.content {
-    display: flex;
-    height: 200px;
-    max-width: 100px;
-    border: 4px solid rgb(177, 177, 177);
-    
 }
 
 .content-header {
@@ -144,5 +129,30 @@ a {
     font-weight: 900;
     padding: 25px;
     font-family: 'Brush Script MT', cursive;
+}
+
+.content-container {
+    display: flex;
+    gap: 30px;
+    border: 2px yellow solid;
+    width: 1000px;
+    padding: 10px;
+    justify-content: center;
     
+    
+}
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.img {
+    border-radius: 10px;
+    border: 10px solid black;
 }
